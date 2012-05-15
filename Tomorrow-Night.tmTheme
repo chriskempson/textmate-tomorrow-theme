@@ -23,12 +23,6 @@
 				<string>#282A2E</string>
 				<key>selection</key>
 				<string>#373B41</string>
-				<key>guide</key>
-				<string>#4B4E55</string>
-				<key>activeGuide</key>
-				<string>#969896</string>
-				<key>stackGuide</key>
-				<string>#4B4E55</string>
 			</dict>
 		</dict>
 		<dict>
@@ -229,6 +223,52 @@
 				<string>underline</string>
 				<key>foreground</key>
 				<string>#7CA4BC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>⎇ diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header, meta.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4A5E6E</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>⎇ diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#6B3637</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>⎇ diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#6C4830</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>⎇ diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#3A5D34</string>
 			</dict>
 		</dict>
 	</array>
