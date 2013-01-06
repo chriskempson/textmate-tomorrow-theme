@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>http://chriskempson.com</string>
+	<string>http://chriskempson.com - modified by Paradox (http://paradox.gd)</string>
 	<key>name</key>
-	<string>Tomorrow Night</string>
+	<string>Tomorrow Night Modified</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -189,27 +189,27 @@
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
-		</dict>				
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff insertion</string>
 			<key>scope</key>
-			<string>markup.inserted.diff, meta.diff.header.to-file</string>
+			<string>markup.inserted.diff, meta.diff.header.to-file, markup.inserted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#718c00</string>
+				<string>#718C00</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff deletion</string>
 			<key>scope</key>
-			<string>markup.deleted.diff, meta.diff.header.from-file</string>
+			<string>markup.deleted.diff, meta.diff.header.from-file, markup.deleted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c82829</string>
+				<string>#C82829</string>
 			</dict>
 		</dict>
 		<dict>
@@ -219,25 +219,73 @@
 			<string>meta.diff.header.from-file, meta.diff.header.to-file</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#4271AE</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
-				<key>background</key>
-				<string>#4271ae</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff range</string>
 			<key>scope</key>
-			<string>meta.diff.range</string>
+			<string>meta.diff.range, markup.changed</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#3e999f</string>
+				<string>#3E999F</string>
 			</dict>
-		</dict>		
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#C5C8C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hyperlink</string>
+			<key>scope</key>
+			<string>markup.underline.link</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic underline</string>
+				<key>foreground</key>
+				<string>#81A2BE</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
