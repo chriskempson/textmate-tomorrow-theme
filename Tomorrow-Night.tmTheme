@@ -181,98 +181,65 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Underline</string>
+			<string>Diff foreground</string>
 			<key>scope</key>
-			<string>markup.underline</string>
+			<string>markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>				
+		<dict>
+			<key>name</key>
+			<string>Diff insertion</string>
+			<key>scope</key>
+			<string>markup.inserted.diff, meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Bold</string>
+			<string>Diff deletion</string>
 			<key>scope</key>
-			<string>markup.bold</string>
+			<string>markup.deleted.diff, meta.diff.header.from-file</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
+				<key>foreground</key>
+				<string>#c82829</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Italic</string>
+			<string>Diff header</string>
 			<key>scope</key>
-			<string>markup.italic</string>
+			<string>meta.diff.header.from-file, meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
+				<string>#4271ae</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Diff range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Link</string>
-			<key>scope</key>
-			<string>markup.underline.link</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
-				<string>#7CA4BC</string>
+				<string>#3e999f</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>⎇ diff.header</string>
-			<key>scope</key>
-			<string>meta.diff, meta.diff.header, meta.separator</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#4A5E6E</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>⎇ diff.deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#6B3637</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>⎇ diff.changed</string>
-			<key>scope</key>
-			<string>markup.changed</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#6C4830</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>⎇ diff.inserted</string>
-			<key>scope</key>
-			<string>markup.inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#3A5D34</string>
-			</dict>
-		</dict>
+		</dict>		
 	</array>
 	<key>uuid</key>
-	<string>A12F348E-AAA1-4094-8A08-28BFF95895FB</string>
+	<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
 </dict>
 </plist>
